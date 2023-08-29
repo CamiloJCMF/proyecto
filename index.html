@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="formulario">
+    <form action="formula.php" method="post">
+        <table>
+            <tr>
+
+                
+                <td><input type="text" placeholder="Escriba tu nombre aquí" name="nombre" required></td>
+
+            </tr>
+            <tr>
+                
+                <td><input type="text" placeholder="Escriba tu apellido aquí" name="apellido" required></td>
+            </tr>
+            <tr>
+                </td>
+                <td><input type="password" placeholder="Contraseña" name="password" required></td>
+                
+            </tr>
+            
+            <tr>
+                
+                
+                <td><select class="cadena" name="edad">
+                    <option selected hidden value=""> Edad</option>
+                    <option value="17"> 17</option>
+                    <option value="18">18 </option>
+                    <option value="19"> 19</option>
+                    <option value="20">20 </option>
+                    <option value="21"> 21</option>
+                    <option value="22">22</option>
+                    <option value="23"> 23</option>
+                    <option value="24">24</option>
+                    <option value="25 & Más">25 & Más</option>
+                    
+            </tr>
+            <tr>
+                
+                <td><input type="mail" placeholder="Correo electronico" name="mail " required></td>
+
+            </tr>
+            <tr>
+                
+                <td><select class="seleccion" name="materia" required>
+                    <option selected hidden value=""> Materias</option>
+                    <option value="Calculo">Calculo</option>
+                    <option value="Fisica">Fisica</option>
+                    <option value="Sociales">Sociales</option>
+                    <option value="Naturales">Naturales</option>
+                    <option value="Informatica">Informatica</option>
+                </select>
+                <input type="phone" placeholder="celular: " name="id">
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Aceptar" name="enviar">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

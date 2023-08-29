@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+body{
+    width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background: #253C59;
+    color: #2D4B73;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.formulario {
+    width: 100%;
+    width: 320px;
+    background: #99B4BF;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+input[type = "text"]{
+    width: 100%;
+    background: nome;
+    border: 1px solid #BF8D30 ;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #BF8D30;
+
+}
+input[type = "password"]{
+    width: 100%;
+    background: nome;
+    border: 1px solid #BF8D30 ;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #BF8D30;
+
+}
+
+input [ type = "radio"]{
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+input[type = "mail"]{
+    width: 100%;
+    background: nome;
+    border: 1px solid #BF8D30 ;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #BF8D30;
+
+}
+
+select[class = "seleccion"]{
+    
+        width: 100%;
+        background: #253C59;
+        border: 1px solid #BF8D30 ;
+        border-radius: 3px;
+        padding: 6px 15px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        color: #BF8D30;
+    
+    }
+    select[class = "cadena"]{
+    
+        width: 100%;
+        background: #253C59;
+        border: 1px solid #BF8D30 ;
+        border-radius: 3px;
+        padding: 6px 15px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        color: #BF8D30;
+    
+    }
+
+    input[type = "phone"]{
+        width: 100%;
+        background: nome;
+        border: 1px solid #BF8D30 ;
+        border-radius: 3px;
+        padding: 6px 15px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        color: #BF8D30;
+    
+    }
+
+    input[ type = "submit"]{
+        background: #F2E5D5;
+        width: 100%;
+        border-radius: 3px;
+        border: nane;
+        cursor: pointer;
+        color: black;
+        font-size: 20px;
+
+    }
+    
+    input[type = "submit"]:hover{
+
+        background: #CEDEF2;
+        transition: .6s;
+
+    }
+    
+
+
